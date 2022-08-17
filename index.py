@@ -1,10 +1,6 @@
 import time
 from selenium import webdriver
-from selenium.webdriver.common.keys import Keys
-from typing import Dict, List, Union
-from selenium.common.exceptions import WebDriverException
 from selenium.webdriver.common.by import By
-from selenium.webdriver.remote.webelement import WebElement
 from webdriver_manager.chrome import ChromeDriverManager
 
 navegador = webdriver.Chrome(ChromeDriverManager().install())
