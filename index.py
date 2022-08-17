@@ -6,7 +6,6 @@ from selenium.common.exceptions import WebDriverException
 from selenium.webdriver.common.by import By
 from selenium.webdriver.remote.webelement import WebElement
 from webdriver_manager.chrome import ChromeDriverManager
-import re
 
 navegador = webdriver.Chrome(ChromeDriverManager().install())
 navegador.maximize_window()
